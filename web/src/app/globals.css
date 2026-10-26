@@ -133,4 +133,8 @@ body {
   .md-help ol {
     @apply mt-2 space-y-1 pl-5;
   }
+
+  .help-jump-btn {
+    @apply mt-4 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-semibold text-slate-200 transition hover:bg-white/15;
+  }
 }

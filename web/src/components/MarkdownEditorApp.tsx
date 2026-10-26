@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { markdownToHtml } from "@/lib/markdownParser";
 import { DemoHelpSection } from "@/components/DemoHelpSection";
+import { HelpJumpButton } from "@/components/HelpJumpButton";
 
 const STARTER = `# Welcome
 
@@ -33,6 +34,7 @@ export function MarkdownEditorApp() {
         </div>
         <h1 className="md-title">Markdown Editor</h1>
         <p className="md-tagline">Type on the left — HTML preview on the right</p>
+        <HelpJumpButton />
       </header>
 
       <div className="md-panels">
